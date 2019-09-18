@@ -43,8 +43,6 @@ function boundElement(el) {
             onLeave.bind(null, this.refEl)
           );
 
-          console.log(bound);
-
           this.setState({
             bound
           });
