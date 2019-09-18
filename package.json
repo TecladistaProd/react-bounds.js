@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "."
+    "url": "https://github.com/TecladistaProd/react-bounds.js.git"
   },
   "keywords": [
     "boundary",
