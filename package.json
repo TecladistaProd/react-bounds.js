@@ -1,0 +1,24 @@
+{
+  "name": "react-bound.js",
+  "version": "1.0.0",
+  "description": "Asynchronous boundary detection",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "boundary",
+    "scroll",
+    "lazy",
+    "load",
+    "images",
+    "bounds",
+    "react"
+  ],
+  "author": "TecladistaProd",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0"
+  }
+}

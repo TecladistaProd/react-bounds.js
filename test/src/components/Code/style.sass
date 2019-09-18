@@ -1,0 +1,32 @@
+.code
+  font-size: 16px
+  border-radius: 10px
+  height: auto
+  padding: 20px 2rem
+  background-color: rgba(211,211,211,0.5)
+  margin: 100px auto
+  width: 100%
+  @media screen and (max-width: 700px)
+    padding: 20px 1rem
+  pre
+    word-wrap: break-word
+    white-space: pre-wrap
+  code
+    &:not(:first-of-type)
+      margin-top: 8px
+    display: block
+  .var
+    color: blue
+  .method
+    color: #eb762f
+  .string
+    color: #23853a
+  .number
+    color: #7f3fdf
+  .comment
+    color: #9a9a9a
+  .command
+    color: #d32323
+  .tab
+    --space: 1
+    margin-left: calc(1.5rem * var(--space))
