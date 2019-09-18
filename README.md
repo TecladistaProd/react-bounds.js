@@ -16,8 +16,6 @@ React-Bounds.js defies these expectations, providing a simple and powerful API. 
 
 ## Usage
 
-React-Bounds.js was developed with a modern JavaScript workflow in mind. To use it, it's recommended you have a build system in place that can transpile ES6 and bundle modules.
-
 Follow these steps to get started:
 
 1. [Install](#install)
