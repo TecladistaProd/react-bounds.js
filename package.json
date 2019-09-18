@@ -1,5 +1,5 @@
 {
-  "name": "react-bound.js",
+  "name": "react-bounds.js",
   "version": "1.0.0",
   "description": "Asynchronous boundary detection",
   "main": "index.js",
