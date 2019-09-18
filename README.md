@@ -46,7 +46,7 @@ import bound from "react-bounds.js";
 The first step is to create a new boundary using react-bounds.js. To do so, call it and pass in your desired options. Each option and its default is explained in the [options](#options) section below.
 
 ```jsx
-const Image = bound.im(); // initialize with default options
+const Image = bound.img(); // initialize with default options
 
 class Comp extends React.Component {
     state = {
