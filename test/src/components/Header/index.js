@@ -9,7 +9,7 @@ const Header = () => (
     <h1 className={style.title}>
       React-Bounds<span>.js</span>
     </h1>
-    <Button type="link" url="https://github.com/tecladistaprod/bounds.js">
+    <Button type="link" url="https://github.com/tecladistaprod/react-bounds.js">
       Documentation
     </Button>
   </header>
