@@ -5,7 +5,7 @@
     "start": "parcel public/index.html --port 3000",
     "build": "cross-env NODE_ENV=production parcel build public/index.html --no-source-maps --public-url /react-bounds.js/"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

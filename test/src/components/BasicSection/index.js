@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect, createRef } from "react";
 
 import style from "./style.sass";
 
-import bound from "../../../../index";
+import bound from "../../../../src/index";
 
 import Code, { Rw, Tb, Vb, Mt, Sr, Cd, Nb, Ct } from "../Code";
 
