@@ -1,10 +1,10 @@
 {
   "name": "react-bounds.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Asynchronous boundary detection",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-file index.js"
+    "build": "parcel build src/index.js --out-file index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
-    "babel-preset-react-app": "^9.0.2"
+    "babel-preset-react-app": "^9.0.2",
+    "parcel-bundler": "^1.12.4"
   }
 }
