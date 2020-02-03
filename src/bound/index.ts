@@ -1,31 +1,20 @@
-const checkForObserver = () => {
-  if (!("IntersectionObserver" in window)) {
-    throw new Error(`
-      bounds.js requires IntersectionObserver on the global object.
-      IntersectionObserver is unavailable in IE and other older
-      versions of browsers.
-      See https://github.com/ChrisCavs/bounds.js/blob/master/README.md
-      for more compatibility information.
-    `);
-  }
-};
+//@ts-nocheck
+import { getMargins, noOp, checkForObserver } from "./helpers";
 
-const getMargins = (margins = {}) => {
-  const { top = 0, right = 0, bottom = 0, left = 0 } = margins;
-  return `${top}px ${right}px ${bottom}px ${left}px`;
-};
-
-const noOp = () => {};
+import { boundaryParam, boundaryNode } from "../interfaces";
 
 class Boundary {
-  constructor(params = {}) {
+  nodes: Array<boundaryNode>;
+  onEmit: Function;
+  observer: IntersectionObserver;
+  constructor(params: boundaryParam = {}) {
     let { root, margins, threshold, onEmit } = params;
 
     onEmit = onEmit || noOp;
 
     checkForObserver();
 
-    const rootMargin = getMargins(margins);
+    const rootMargin = getMargins(margins || {});
     threshold = threshold || 0.0;
 
     const options = {

@@ -4,7 +4,8 @@ import style from "./style.sass";
 
 import Code, { Rw, Tb, Cd, Ct, Sr, Nb, Mt, Vb } from "../Code";
 
-import bound from "../../../../src/index";
+// import bound from "../../../../src/index";
+import bound from "../../../../dist/index";
 
 let images = [
   "https://images.unsplash.com/photo-1566167433854-d7defb74783f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixlib=rb-1.2.1&q=80&w=600",

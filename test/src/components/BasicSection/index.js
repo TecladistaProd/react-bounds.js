@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect, createRef } from "react";
 
 import style from "./style.sass";
 
-import bound from "../../../../src/index";
+import bound from "../../../../dist/index";
 
 import Code, { Rw, Tb, Vb, Mt, Sr, Cd, Nb, Ct } from "../Code";
 
@@ -14,7 +14,7 @@ function BasicSection() {
 
   useEffect(() => {
     if (boxRef.current && !Circle) {
-      setCircle(bound.div({ root: boxRef.current }));
+      setCircle(bound.div({ root: boxRef.current }));      
       setTimeout(() => handleCircleClass(), 1000);
     }
   });

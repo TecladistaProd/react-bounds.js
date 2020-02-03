@@ -1,3 +1,7 @@
 /node_modules
 /test
 dist.txt
+package-lock.json
+/.cache
+yarn-error.log
+/.rts2*

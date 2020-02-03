@@ -2,3 +2,7 @@
 /dist
 /test/.cache
 /test/node_modules
+/.cache
+package-lock.json
+yarn-error.log
+/.rts2*

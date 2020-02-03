@@ -1,10 +1,12 @@
 {
   "name": "react-bounds.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Asynchronous boundary detection",
+  "source": "src/index.ts",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
-    "build": "parcel build src/index.js --out-file index.js"
+    "build": "microbundle"
   },
   "repository": {
     "type": "git",
@@ -26,11 +28,15 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.7.4",
-    "babel-preset-react-app": "^9.0.2",
-    "parcel-bundler": "^1.12.4"
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "acorn": "^7.1.0",
+    "babel-preset-react-app": "^9.1.1",
+    "microbundle": "^0.11.0",
+    "typescript": "^3.7.5"
   }
 }
