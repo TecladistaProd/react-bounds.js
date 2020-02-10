@@ -1,10 +1,10 @@
 {
   "name": "react-bounds.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Asynchronous boundary detection",
   "source": "src/index.ts",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.m.js",
   "scripts": {
     "build": "microbundle --tsconfig ./tsconfig.json --sourcemap false --jsx React.createElement"
   },
