@@ -1,14 +1,14 @@
-import * as React from 'react'
+import * as React from "react";
 
-import BoundElement from './BoundElement'
+import BoundElement from "./BoundElement";
 
-import { boundaryParam } from '../interfaces'
+import { boundaryParam } from "../interfaces";
 
-import boundElementFnIn from '../interfaces/boundElementFunctionInterface'
+import boundElementFnIn from "../interfaces/boundElementFunctionInterface";
 
 interface props {
-  onEnter?: (el?: React.ReactHTMLElement<HTMLElement>, ratio?: number) => void,
-  onLeave?: (el?: React.ReactHTMLElement<HTMLElement>, ratio?: number) => void
+  onEnter?: (el?: React.ReactHTMLElement<HTMLElement>, ratio?: number) => void;
+  onLeave?: (el?: React.ReactHTMLElement<HTMLElement>, ratio?: number) => void;
 }
 
 function boundElement(el: string): boundElementFnIn {
